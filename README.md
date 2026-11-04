@@ -31,31 +31,19 @@ Desenvolvo, refatoro e dou suporte a sistemas tributários usados por administra
 
 ### Projetos próprios
 
-**[Brasil Politizado](https://github.com/GDPonsoni/brasil-politizado)** · em desenvolvimento<br>
-Transparência política navegável por ano e região. O MVP trata os dados abertos do TSE (presidente, governadores, Senado e Câmara) e rastreia cada dado até a linha do arquivo de origem. Meta: tornar a informação pública mais acessível.<br>
-`Python` `Streamlit` `SQLite` `pandas` `Plotly`
-
-**[Album-fig](https://github.com/GDPonsoni/Album-fig)** · em desenvolvimento<br>
-Álbum de figurinhas digital da calourada, com pacotes sorteados no servidor, códigos de resgate e trocas em tempo real. Tem painel administrativo e testes automatizados.<br>
-`React` `TypeScript (PWA)` `FastAPI` `PostgreSQL`
-
-**[RepPlus](https://github.com/GDPonsoni/RepPlus)**<br>
-App modular para organizar uma república: escala de limpeza, agenda, compras, atas e finanças, com cofre de senhas criptografado no aparelho. Parti da escala criada pelo [Leonardo](https://github.com/LeonardoRodriSilva) e reestruturei em módulos.<br>
-`Node.js` `Express` `JavaScript` `PostgreSQL`
-
-**[Nucleon Squad](https://github.com/GDPonsoni/nucleon-squad)** · em teste<br>
-Bullet hell vertical para Android: soltar o dedo deixa o jogo em câmera lenta, e é nesse momento que se troca a nave do esquadrão. Seis naves, sete inimigos, quatro chefes e treze fases.<br>
-`Godot 4` `GDScript`
+| Projeto | O que é | Stack |
+|---|---|---|
+| [**Brasil Politizado**](https://github.com/GDPonsoni/brasil-politizado)<br><sub>em desenvolvimento</sub> | Painel de transparência política navegável por ano e região. Por enquanto trata só os dados abertos do TSE (presidente, governadores, Senado e Câmara), e cada dado mostra de qual arquivo e linha veio. A ideia é crescer para outras bases públicas. | Python, Streamlit, SQLite, pandas, Plotly |
+| [**Album-fig**](https://github.com/GDPonsoni/Album-fig)<br><sub>em desenvolvimento</sub> | Álbum de figurinhas digital da calourada: os calouros abrem pacotes, resgatam códigos e trocam repetidas ao vivo. Tem painel de admin e testes automatizados. | React, TypeScript, FastAPI, PostgreSQL |
+| [**RepPlus**](https://github.com/GDPonsoni/RepPlus) | Organização de república em módulos que cada casa liga ou desliga: escala de limpeza, agenda, compras, atas e finanças. Comecei a partir da escala do [Leonardo](https://github.com/LeonardoRodriSilva). | Node.js, Express, JavaScript, PostgreSQL |
+| [**Nucleon Squad**](https://github.com/GDPonsoni/nucleon-squad)<br><sub>em teste</sub> | Jogo de nave vertical (bullet hell) para Android. Soltar o dedo deixa tudo em câmera lenta, e é aí que se troca a nave do esquadrão. | Godot 4, GDScript |
 
 ### Em grupo
 
-**[Delícias da Lú](https://github.com/doceriadeliciasdaluoficial-wq/delicias-da-lu-frontend)** · em dupla<br>
-Front-end do e-commerce de uma doceria. Fiz a montagem do pedido de bolo, o painel administrativo, a adaptação para celular e o deploy com Docker.<br>
-`React` `Tailwind CSS` `Vite` `Docker`
-
-**[Campo Minado](https://github.com/LuizHFJesus/minesweeper)** · 2024<br>
-Jogo web em grupo. Fiz parte do front-end: navegação, seleção de jogo, jogo personalizado e ranking.<br>
-`HTML` `CSS` `JavaScript` `PHP`
+| Projeto | O que é | Stack |
+|---|---|---|
+| [**Delícias da Lú**](https://github.com/doceriadeliciasdaluoficial-wq/delicias-da-lu-frontend) | Front-end do site de uma doceria, feito em dupla. Fiquei com o pedido de bolo, o painel admin, a versão mobile e o Docker. | React, Tailwind CSS, Vite, Docker |
+| [**Campo Minado**](https://github.com/LuizHFJesus/minesweeper)<br><sub>2024</sub> | Jogo feito em grupo. Fiz parte do front: navegação, seleção de jogo, jogo personalizado e ranking. | HTML, CSS, JavaScript, PHP |
 
 ## Pesquisa
 
