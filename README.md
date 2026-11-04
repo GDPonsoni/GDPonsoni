@@ -16,7 +16,7 @@
 
 Sou formado em Análise e Desenvolvimento de Sistemas (TADS) e estou cursando Sistemas de Informação, ambos na UNICAMP. Trabalho com desenvolvimento web full stack e já fiz pesquisa aplicada em IoT e inteligência artificial. Minha experiência vai de APIs REST e bancos relacionais até séries temporais e dashboards.
 
-Fora do trabalho, toco projetos próprios: dois aplicativos web full stack e um jogo mobile, descritos abaixo.
+Fora do trabalho, toco projetos próprios: aplicativos web full stack, tratamento de dados públicos e um jogo mobile.
 
 ## Trabalho atual
 
@@ -31,58 +31,30 @@ Desenvolvo, refatoro e dou suporte a sistemas tributários usados por administra
 
 ### Projetos próprios
 
-**[Album-fig](https://github.com/GDPonsoni/Album-fig): álbum de figurinhas da calourada** · em desenvolvimento
+**[Brasil Politizado](https://github.com/GDPonsoni/brasil-politizado)** · em desenvolvimento<br>
+Transparência política navegável por ano e região. O MVP trata os dados abertos do TSE (presidente, governadores, Senado e Câmara) e rastreia cada dado até a linha do arquivo de origem. Meta: tornar a informação pública mais acessível.<br>
+`Python` `Streamlit` `SQLite` `pandas` `Plotly`
 
-Álbum digital em que cada organização estudantil tem suas páginas e os calouros completam a coleção abrindo pacotes, resgatando códigos e trocando repetidas ao vivo.
+**[Album-fig](https://github.com/GDPonsoni/Album-fig)** · em desenvolvimento<br>
+Álbum de figurinhas digital da calourada, com pacotes sorteados no servidor, códigos de resgate e trocas em tempo real. Tem painel administrativo e testes automatizados.<br>
+`React` `TypeScript (PWA)` `FastAPI` `PostgreSQL`
 
-- Sorteio dos pacotes feito no servidor, com gaveta de três espaços abastecida por um timer.
-- Trocas em tempo real por WebSocket, por QR ou link, com aceite dos dois lados.
-- Painel administrativo para organizações, figurinhas, raridades, pacotes, códigos, parâmetros e métricas.
-- Testes automatizados no backend, roteiro ponta a ponta em tela de celular e teste de carga.
-- Preparado para deploy no Render com Docker, banco no Neon e imagens em bucket privado no Cloudflare R2.
+**[RepPlus](https://github.com/GDPonsoni/RepPlus)**<br>
+App modular para organizar uma república: escala de limpeza, agenda, compras, atas e finanças, com cofre de senhas criptografado no aparelho. Parti da escala criada pelo [Leonardo](https://github.com/LeonardoRodriSilva) e reestruturei em módulos.<br>
+`Node.js` `Express` `JavaScript` `PostgreSQL`
 
-`React` `Vite` `TypeScript (PWA)` `FastAPI` `SQLAlchemy` `Alembic` `PostgreSQL`
-
-**[RepPlus](https://github.com/GDPonsoni/RepPlus): organização de república**
-
-Aplicação web modular para a rotina de uma república, em que cada casa liga só os módulos que usa.
-
-- Escala de limpeza com rodízio determinístico, folgas automáticas e regra do banheiro da suíte.
-- Agenda conjunta, lista de compras, atas de reunião, cadastro de moradores e finanças com divisão de despesas.
-- Cofre de senhas criptografado no próprio aparelho (AES-256).
-- Publicado no Render, com banco Postgres no Neon e imagens no Cloudflare R2.
-- Parti da escala de limpeza criada pelo [Leonardo](https://github.com/LeonardoRodriSilva): reestruturei o app em módulos, migrei o banco do Supabase para o Neon e desenvolvi os módulos novos.
-
-`Node.js` `Express` `JavaScript (módulos ES, sem build)` `PostgreSQL`
-
-**[Nucleon Squad](https://github.com/GDPonsoni/nucleon-squad): shoot 'em up mobile** · em teste
-
-Bullet hell vertical para Android em que soltar o dedo deixa o jogo em câmera lenta, e é nesse momento que se troca a nave do esquadrão.
-
-- Seis naves (esquadrão de quatro), armas com cinco níveis e especial que recarrega com o tempo.
-- Sete tipos de inimigos, quatro chefes com fases de ataque e quatro capítulos com treze fases.
-- Seletor de fases com desbloqueio, recordes salvos no aparelho e textos em PT-BR e EN.
-- Parâmetros centralizados, dados do jogo fora do código e pooling de projéteis. O design está documentado em um GDD. A arte ainda é provisória.
-
+**[Nucleon Squad](https://github.com/GDPonsoni/nucleon-squad)** · em teste<br>
+Bullet hell vertical para Android: soltar o dedo deixa o jogo em câmera lenta, e é nesse momento que se troca a nave do esquadrão. Seis naves, sete inimigos, quatro chefes e treze fases.<br>
 `Godot 4` `GDScript`
 
 ### Em grupo
 
-**[Delícias da Lú](https://github.com/doceriadeliciasdaluoficial-wq/delicias-da-lu-frontend): front-end de e-commerce de uma doceria** · em dupla
-
-Site com cardápio, carrinho, montagem do pedido de bolo e painel administrativo.
-
-- Montagem do pedido (Cake Builder) e geração da mensagem de WhatsApp.
-- Painel administrativo e adaptação da experiência para celular.
-- Docker, nginx e build no Google Cloud Build.
-- Início da integração com o backend.
-
+**[Delícias da Lú](https://github.com/doceriadeliciasdaluoficial-wq/delicias-da-lu-frontend)** · em dupla<br>
+Front-end do e-commerce de uma doceria. Fiz a montagem do pedido de bolo, o painel administrativo, a adaptação para celular e o deploy com Docker.<br>
 `React` `Tailwind CSS` `Vite` `Docker`
 
-**[Campo Minado](https://github.com/LuizHFJesus/minesweeper): jogo web em grupo (2024)**
-
-Campo minado com contas de usuário, histórico de partidas, ranking e modo personalizado. Fiz parte do front-end: navegação, tela de seleção de jogo, jogo personalizado, página do jogo e ranking.
-
+**[Campo Minado](https://github.com/LuizHFJesus/minesweeper)** · 2024<br>
+Jogo web em grupo. Fiz parte do front-end: navegação, seleção de jogo, jogo personalizado e ranking.<br>
 `HTML` `CSS` `JavaScript` `PHP`
 
 ## Pesquisa
@@ -106,10 +78,14 @@ Campo minado com contas de usuário, histórico de partidas, ranking e modo pers
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 
 **Dados**<br>
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)
 ![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?logo=influxdb&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
 ![JasperSoft](https://img.shields.io/badge/JasperSoft-555555)
