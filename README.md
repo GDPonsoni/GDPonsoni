@@ -36,7 +36,7 @@ Desenvolvo, refatoro e dou suporte a sistemas tributários usados por administra
 | [**Brasil Politizado**](https://github.com/GDPonsoni/brasil-politizado)<br><sub>em desenvolvimento</sub> | Painel de transparência política navegável por ano e região. Por enquanto trata só os dados abertos do TSE (presidente, governadores, Senado e Câmara), e cada dado mostra de qual arquivo e linha veio. A ideia é crescer para outras bases públicas. | Python, Streamlit, SQLite, pandas, Plotly |
 | [**Album-fig**](https://github.com/GDPonsoni/Album-fig)<br><sub>em desenvolvimento</sub> | Álbum de figurinhas digital da calourada: os calouros abrem pacotes, resgatam códigos e trocam repetidas ao vivo. Tem painel de admin e testes automatizados. | React, TypeScript, FastAPI, PostgreSQL |
 | [**RepPlus**](https://github.com/GDPonsoni/RepPlus) | Organização de república em módulos que cada casa liga ou desliga: escala de limpeza, agenda, compras, atas e finanças. Comecei a partir da escala do [Leonardo](https://github.com/LeonardoRodriSilva). | Node.js, Express, JavaScript, PostgreSQL |
-| [**Nucleon Squad**](https://github.com/GDPonsoni/nucleon-squad)<br><sub>em teste</sub> | Jogo de nave vertical (bullet hell) para Android. Soltar o dedo deixa tudo em câmera lenta, e é aí que se troca a nave do esquadrão. | Godot 4, GDScript |
+| [**Nucleon Squad**](https://github.com/GDPonsoni/nucleon-squad)<br><sub>em teste</sub> | Jogo de nave vertical (bullet hell) para Android. Soltar o dedo deixa tudo em câmera lenta, e é aí que se troca a nave do esquadrão. Já são 5 capítulos e 8 naves para liberar. | Godot 4, GDScript |
 
 ### Em grupo
 
