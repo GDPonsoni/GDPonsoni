@@ -34,9 +34,9 @@ Desenvolvo, refatoro e dou suporte a sistemas tributários usados por administra
 | Projeto | O que é | Stack |
 |---|---|---|
 | [**Brasil Politizado**](https://github.com/GDPonsoni/brasil-politizado)<br><sub>em desenvolvimento</sub> | Painel de transparência política navegável por ano e região. Por enquanto trata só os dados abertos do TSE (presidente, governadores, Senado e Câmara), e cada dado mostra de qual arquivo e linha veio. A ideia é crescer para outras bases públicas. | Python, Streamlit, SQLite, pandas, Plotly |
-| [**Album-fig**](https://github.com/GDPonsoni/Album-fig)<br><sub>em desenvolvimento</sub> | Álbum de figurinhas digital da calourada: os calouros abrem pacotes, resgatam códigos e trocam repetidas ao vivo. Tem painel de admin e testes automatizados. | React, TypeScript, FastAPI, PostgreSQL |
+| [**UniAlbum**](https://github.com/GDPonsoni/Album-fig)<br><sub>em desenvolvimento</sub> | Plataforma de álbuns de figurinhas sazonais para universidades: cada organização estudantil tem seu capítulo, e os jogadores completam a coleção com pacotes, códigos e trocas ao vivo. Editores montam os capítulos e a publicação passa por revisão e 2FA. | React, TypeScript, FastAPI, PostgreSQL |
 | [**RepPlus**](https://github.com/GDPonsoni/RepPlus) | Organização de república em módulos que cada casa liga ou desliga: escala de limpeza, agenda, compras, atas e finanças. Comecei a partir da escala do [Leonardo](https://github.com/LeonardoRodriSilva). | Node.js, Express, JavaScript, PostgreSQL |
-| [**Nucleon Squad**](https://github.com/GDPonsoni/nucleon-squad)<br><sub>em teste</sub> | Jogo de nave vertical (bullet hell) para Android. Soltar o dedo deixa tudo em câmera lenta, e é aí que se troca a nave do esquadrão. Já são 5 capítulos e 8 naves para liberar. | Godot 4, GDScript |
+| [**Nucleon Squad**](https://github.com/GDPonsoni/nucleon-squad)<br><sub>em polimento</sub> | Jogo de nave vertical (bullet hell) para Android. Soltar o dedo deixa tudo em câmera lenta, e é aí que se troca a nave do esquadrão. Campanha de 5 planetas e 45 fases e, em desenvolvimento, um modo de sobrevivência. | Godot 4, GDScript |
 
 ### Em grupo
 
