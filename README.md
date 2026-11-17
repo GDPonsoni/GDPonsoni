@@ -18,6 +18,8 @@ Sou formado em Análise e Desenvolvimento de Sistemas (TADS) e estou cursando Si
 
 Fora do trabalho, toco projetos próprios: aplicativos web full stack, tratamento de dados públicos e um jogo mobile.
 
+Atualmente estou estudando e testando as melhores formas de desenvolver com IA de forma eficiente.
+
 ## Trabalho atual
 
 **Desenvolvedor e Suporte Web Júnior, SIL Tecnologia em Software (2025 – atual)**
